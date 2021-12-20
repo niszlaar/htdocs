@@ -1,0 +1,118 @@
+body{
+ 	background-image:url('./img/image238.JPG');
+ 	background-repeat:no-repeat;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	margin-left:5%;
+	top:0;
+}
+
+@keyframes hoverLink{
+	from{color: white;}
+	to {color: orange;}
+}
+a:hover{
+	
+	animation-name: hoverLink;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+header{
+	width: 80%;
+	height: auto;
+}
+.pTitle{
+	text-align:right;
+	color:white;
+}
+.pAboutMe{
+	color:white;
+	text-decoration: italic;
+	
+}
+.hAboutMe{
+	color:white;
+}
+.tAboutMe{
+	border:1px solid white;
+}
+.cAboutMe{
+	color:aqua;
+}
+td{
+	color:khaki;
+}
+h1{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+	font-family: 'DejaVu Sans';
+}
+.pArticle{
+	color:white;
+	text-indent: 15px;
+}
+nav{
+	overflow:hidden;
+	width: 80%;
+	background-color:rgba(75,75,75,0.8);
+	padding-left: 20px;
+}
+#link{
+ 	float: left;
+ 	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+article{
+	text-decoration: justify;
+	width:80%;
+	float:left;
+	height:80%;
+	background-color:rgba(75,75,75,0.6);
+	padding-left:20px;
+}
+footer{
+	clear:both;
+	height:auto;
+	width:80%;
+	background-color:grey;
+	padding-left:20px;
+}
+.cpyrights{
+	color:white;
+	text-decoration: italic;
+	text-justify: auto;
+}
+.hGallery {
+	color:aqua;
+	padding-left: 5px;
+}
+div.gallery {
+  	border:1px solid white;
+  	margin: 5px;
+  	width: 300px;
+  	height:200px;
+  	display: inline-block;
+}
+div.gallery:hover{
+	border:1px solid
+}
+
+div.gallery img {
+  	width: 100%;
+  	height: 80%;
+}
+
+div.desc {
+  	padding: 15px;
+  	text-align: center;
+  	color:white;
+}
